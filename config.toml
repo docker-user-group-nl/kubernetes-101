@@ -1,0 +1,11 @@
+baseURL = "https://127.0.0.1"
+languageCode = "en-us"
+title = "Kubernetes 101"
+theme = "hugo-theme-learn"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "blue"
