@@ -68,8 +68,8 @@ Defines a single instance of a Pod to be executed on a cluster.
 
 # Deployment
 
-Defines a single deploymnet (set of Pods)
-MetaData about how to manage the set of Pods (restart policies, other)
+Defines a single deployment (set of Pods)
+Metadata about how to manage the set of Pods (restart policies, other)
 - highlight the labelling
 
 ----

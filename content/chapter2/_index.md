@@ -8,12 +8,12 @@ pre = "<b>2. </b>"
 
 ### Chapter 2 - More about Resources
 
+# Our first application
+
 By now you should be able to connect to your Kubernetes cluster. Let's
 now dig a bit more into what each of the different resources are in
 Kubernetes & how we can start using them.
 
-
-# Our first application
 
 There are a number of different ways to get an application running on
 our cluster, the easiest way is by using the `kubectl run` command.
@@ -75,12 +75,12 @@ We can use any of the IP's under the ExternalIP list.
 
 Secondly, we need to see what port Kubernetes has exposed our nginx server on:
 
-`kubctl get services`
+`kubectl get services`
 
 **TODO**: add clear instructions about which number to use here.
 
-Now we can put these together and open it in our webbrowser.
-<!-- TODO, see if it's possible to route to localhost so we can emded links directly in the tutorial -->
+Now we can put these together and open it in our web browser.
+<!-- TODO, see if it's possible to route to localhost so we can embed links directly in the tutorial -->
 
 Congratulations! We now have a Pod running in the cluster which we
 have a exposed outside of the cluster.
@@ -89,6 +89,6 @@ Let's take a small detour to see how we can view our Pod's logs, this will be us
 
 # Pod Logs
 
-to view the logs of our Pod, we can use another special kubectl subcommand.
+to view the logs of our Pod, we can use another special kubectl sub-command.
 
 `kubectl logs nginx-run`
